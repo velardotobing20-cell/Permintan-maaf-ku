@@ -15,12 +15,11 @@ Terima kasih sudah meluangkan waktu untuk membaca semuanya.
 let i = 0;
 
 const gambar = [
-    "img/foto1.jpg",
-    "img/foto2.jpg",
-    "img/foto3.jpg",
-    "img/foto4.jpg",
-    "img/foto5.jpg"
-];
+"foto1.jpg",
+"foto2.jpg",
+"foto3.jpg",
+"foto4.jpg",
+"foto5.jpg"
 
 let indexFoto = 0;
 
