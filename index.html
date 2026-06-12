@@ -2,102 +2,166 @@
 <html lang="id">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ❤️ </title>
+
+    <title>❤️ Untukmu ❤️</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<div id="loading">
+    <div id="loading">
 
-    <div class="loader-box">
+        <div class="loader-box">
 
-        <h1>❤️</h1>
+            <h1>❤️</h1>
 
-        <h2> Untuk Victoria Natasya Yunita</h2>
+            <h2>Untuk Victoria Natasya Yunita</h2>
 
-        <div class="bar">
+            <div class="bar">
 
-            <div id="progress"></div>
+                <div id="progress"></div>
+
+            </div>
 
         </div>
 
     </div>
 
-</div>
-    <div class="hero">
+    <section class="hero">
 
-        <h1>🤍 10 April 2026 🤍</h1>
+        <div class="hero-content">
 
-        <p>
-            Ada sesuatu yang sudah lama bangett ingiin aku bilang
-        </p>
+            <span class="hero-tag">
+                Sebuah pesan yang kutulis dengan tulus
+            </span>
 
-        <button onclick="bukaSurat()">
-            Buka ❤️
-        </button>
+            <h1>
+                🤍 10 April 2026 🤍
+            </h1>
 
-    </div>
+            <p>
 
+                Ada sesuatu yang sudah lama ingin aku sampaikan.
 
-    <div id="surat" class="hidden">
+                <br><br>
 
-        <h2> Sekalian dengerin musiknya ya </h2>
+                Semoga kamu bersedia membaca semuanya sampai akhir.
 
-        <button id="musicBtn" onclick="toggleMusic()">
-            🎵 Putar Musik
-        </button>
+            </p>
 
-        <p id="typing"></p>
+            <button onclick="bukaSurat()">
+                ❤️ Buka Surat
+            </button>
 
-  
-        <div class="gallery">
+        </div>
+
+    </section>
+
+    <section id="surat" class="hidden">
+
+        <div class="music-card">
+
+            <h2>
+
+                🎵 Sebelum membaca,
+                putar dulu musiknya ya
+
+            </h2>
+
+            <button id="musicBtn" onclick="toggleMusic()">
+
+                🎶 Putar Musik
+
+            </button>
+
+            <p class="music-info">
+
+                Biarkan lagu ini menemani setiap kata yang ingin aku sampaikan.
+
+            </p>
+
+        </div>
+
+        <div class="letter-card">
+
+            <p id="typing"></p>
+
+        </div>
+
+        <div class="gallery-card">
+
             <img id="slide" src="foto1.jpg" alt="Foto Kenangan">
+
         </div>
 
+        <div id="secretBox" class="hidden">
 
-<div id="secretBox" class="hidden">
+            <p class="secret-text">
 
-    <p class="secret-text">
-        🌸 Masih ada lagi nih
-    </p>
+                🌸 Masih ada sesuatu untukmu...
 
-    <button id="secretBtn" onclick="bukaPesanTerakhir()">
-        💖 Lihat Pesan Terakhir
-    </button>
+            </p>
 
-</div>
+            <button id="secretBtn" onclick="bukaPesanTerakhir()">
+
+                💖 Lihat Pesan Terakhir
+
+            </button>
+
+        </div>
 
         <audio id="bgMusic" loop>
+
             <source src="lagu.mp3" type="audio/mpeg">
+
         </audio>
 
-    </div>
+    </section>
 
 
     <div id="lastMessage">
 
-        <h3>🌸 Terakhir hehe </h3>
+        <h3>
+
+            🤍 Terima Kasih Sudah Membaca
+
+        </h3>
 
         <p>
+
             Aku tahu mungkin kata maaf ini belum cukup.
+
             <br><br>
 
             Aku tidak meminta semuanya kembali seperti dulu.
+
             <br><br>
 
-            Aku hanya berharap suatu hari nanti
-            kamu melihat bahwa aku benar-benar berusaha.
-            
+            Aku hanya berharap suatu hari nanti kamu melihat bahwa aku benar-benar berusaha menjadi pribadi yang lebih baik.
+
             <br><br>
 
-            I love You 
+            Apapun keputusanmu nanti,
+
+            terima kasih karena pernah menjadi bagian yang sangat berarti dalam hidupku.
+
             <br><br>
-            Michael Velardo Tobing
-            ❤️
+
+            <strong>
+
+                I Love You ❤️
+
+                <br><br>
+
+                Michael Velardo Tobing
+
+            </strong>
+
         </p>
 
     </div>
