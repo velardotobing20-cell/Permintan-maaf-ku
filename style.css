@@ -2,206 +2,120 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    font-family: "Georgia", serif;
-    background: linear-gradient(135deg,#ffd6e7,#fff5f8);
+    font-family:Georgia, serif;
+    background:linear-gradient(135deg,#ffe4ef,#fff7fb,#fff);
     color:#444;
-}
-
-.hero h1{
-    font-size:42px;
-    color:#d6336c;
-    margin-bottom:40px;
-    font-weight:bold;
-}
-
-.hero p{
-    font-size:20px;
-    color:#666;
-    margin-bottom:40px;
-    line-height:1.8;
-}
-#typing{
-    max-width:730px;
-    margin:25px auto;
-    line-height:38px;
-    font-size:20px;
-    white-space:pre-wrap;
-    text-align:center;
 }
 
 .hero{
+    min-height:100vh;
     display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
-    height:90vh;
     text-align:center;
-    padding:30px;
+    padding:20px;
 }
 
-button{
-    padding: 10px;px 30px;
-    border:none;
-    border-radius:40px;
-    cursor:pointer;
-    font-size:18px;
-    transition:0.3s;
-}
-
-button:hover{
-    transform:scale(1.05);
-}
-
-.hero button,
-#musicBtn{
-    background:#ff4d88;
-    color:white;
-}
-
-.hidden{
-    display:none;
-}
-
-#surat{
-    padding:40px 20px;
-}
-
-#typing{
-    max-width:750px;
-    margin:30px auto;
-    font-size:22px;
-    line-height:42px;
-    text-align:justify;
-    white-space:pre-line;
-    color:#444;
-}
-.gallery{
-    display:flex;
-    justify-content:center;
-    margin-top:25px;
-}
-
-.gallery img{
-    width:320px;
-    max-width:90%;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
-    transition:1s;
-}
-
-#lastMessage{
-    position:fixed;
-    right:30px;
-    bottom:30px;
-    width:280px;
-    background:rgba(255,255,255,.95);
-    padding:18px;
-    border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,.2);
-    display:none;
-}
-
-#lastMessage h3{
+.hero h1{
+    font-size:38px;
     color:#d6336c;
     margin-bottom:10px;
 }
 
-#lastMessage p{
+.hero p{
     font-size:16px;
-    line-height:24px;
-    color:#555;
+    line-height:1.5;
+    max-width:400px;
+    margin-bottom:15px;
 }
 
-.heart{
+button{
+    padding:12px 28px;
+    border:none;
+    border-radius:999px;
+    background:#ff5d96;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+#surat{
+    padding:30px 15px;
+}
+
+.music-card, .letter-card{
+    max-width:500px;
+    margin:15px auto;
+    text-align:center;
+}
+
+#typing{
+    font-size:18px;
+    line-height:1.5;
+    white-space:pre-line;
+    text-align:justify;
+}
+
+
+.gallery-card{
+    text-align:center;
+    margin-top:20px;
+}
+
+#slide{
+    width:180px;
+    height:240px;
+    object-fit:cover;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+
+#secretBox{
+    text-align:center;
+    margin-top:20px;
+}
+
+
+#lastMessage{
+    display:none;
     position:fixed;
-    top:-50px;
-    animation:jatuh linear forwards;
-    pointer-events:none;
-    z-index:999;
-    opacity:0.8;
-    filter:none;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:white;
+    padding:25px;
+    width:90%;
+    max-width:400px;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.2);
 }
 
-@keyframes jatuh{
-    from{
-        transform:translateY(0);
-    }
-    to{
-        transform:translateY(110vh);
-    }
-}
 
 #loading{
     position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:#fff5f8;
+    inset:0;
+    background:white;
     display:flex;
     justify-content:center;
     align-items:center;
     z-index:9999;
 }
 
-.loader-box{
-    text-align:center;
-}
-
-.loader-box h1{
-    font-size:60px;
-    margin-bottom:10px;
-}
-
-.loader-box h2{
-    margin-bottom:20px;
-    color:#d6336c;
-}
-
 .bar{
-    width:280px;
+    width:250px;
     height:10px;
     background:#eee;
-    border-radius:20px;
+    border-radius:999px;
     overflow:hidden;
 }
 
 #progress{
     width:0%;
     height:100%;
-    background:#ff4d88;
-    transition:width .05s linear;
-}
-
-#secretBox{
-    display:none;
-    text-align:center;
-    margin-top:30px;
-    animation:fade 1.5s;
-}
-
-.secret-text{
-    font-size:18px;
-    color:#d6336c;
-    margin-bottom:15px;
-    font-style:italic;
-}
-
-#secretBtn{
-    background:#ff4d88;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:30px;
-    cursor:pointer;
-    font-size:18px;
-    transition:.3s;
-}
-
-#secretBtn:hover{
-    transform:scale(1.05);
+    background:#ff5d96;
 }
