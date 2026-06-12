@@ -1,12 +1,12 @@
 const pesan = `
 
-Hai...
-Kalau kamu sedang membaca ini,
-artinya aku memberanikan diri untuk menyampaikan sesuatu yang mungkin tidak mudah.
-Aku benar-benar minta maaf.
-Aku sadar bahwa ada sikap dan tindakan yang mungkin membuatmu kecewa.
-Aku tidak bisa mengubah masa lalu.
-Tetapi aku bisa belajar agar menjadi pribadi yang lebih baik.
+hai sayang,
+
+Aku tahu mungkin kata "maaf" saja tidak cukup untuk menghapus rasa kecewa yang sudah aku buat. Tapi dari lubuk hatiku yang paling dalam, aku benar-benar meminta maaf atas sikap dan kesalahanku.
+Aku tidak pernah berniat menyakiti atau membuatmu merasa tidak dihargai. Aku sadar ada tindakan dan ucapan yang membuatmu terluka, dan aku bertanggung jawab atas itu. Terima kasih karena selama ini sudah bersabar menghadapi kekuranganku.
+Aku tidak bisa mengubah apa yang sudah terjadi, tapi aku bisa berusaha menjadi pribadi yang lebih baik untukmu. Aku ingin belajar memperbaiki kesalahanku, mendengarkanmu lebih baik, dan menjaga hubungan ini dengan lebih dewasa.
+Kalau kamu masih memberi aku kesempatan, aku akan membuktikan lewat tindakan, bukan hanya janji. Karena bagiku, kehilanganmu adalah hal yang paling tidak ingin terjadi.
+Sekali lagi, maafkan aku. Aku sayang kamu.
 Terima kasih sudah meluangkan waktu untuk membaca semuanya.
 
 ❤️
@@ -23,6 +23,7 @@ const gambar = [
 ];
 
 let indexFoto = 0;
+
 
 function bukaSurat() {
 
